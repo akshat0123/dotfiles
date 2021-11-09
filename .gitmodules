@@ -1,0 +1,18 @@
+[submodule "fzf.vim"]
+	path = fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "nerdcommenter"]
+	path = nerdcommenter
+	url = https://github.com/preservim/nerdcommenter
+[submodule "vim-airline"]
+	path = vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "vim-gitgutter"]
+	path = vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "vim-surround"]
+	path = vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "nerdtree"]
+	path = nerdtree
+	url = https://github.com/preservim/nerdtree
