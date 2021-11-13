@@ -34,7 +34,7 @@ nmap <leader>Wh <c-w>H
 nmap <leader>Wj <c-w>J
 nmap <leader>Wk <c-w>K
 nnoremap <CR> :noh<CR><CR>
-nmap <leader>n: NERDTree<cr>
+nmap <leader>n :NERDTree<cr>
 nmap <leader>p :Files<cr>
 nmap <leader>o :Ag<cr>
 
