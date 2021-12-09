@@ -37,6 +37,7 @@ nnoremap <CR> :noh<CR><CR>
 nmap <leader>n :NERDTree<cr>
 nmap <leader>p :Files<cr>
 nmap <leader>o :Ag<cr>
+set pastetoggle=<leader>P
 
 autocmd BufNewFile,BufRead *.py nmap <leader>r :w<CR>:!clear;python3 %<CR>
 autocmd BufNewFile,BufRead *.tex nmap <leader>r :w<CR>:!clear;pdflatex %<CR>
