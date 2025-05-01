@@ -33,11 +33,14 @@ nmap <leader>Wl <c-w>L
 nmap <leader>Wh <c-w>H
 nmap <leader>Wj <c-w>J
 nmap <leader>Wk <c-w>K
+nmap <leader>Wt :tabnew<CR>
+nmap <leader>t gt
+nmap <leader>T gT
 nnoremap <CR> :noh<CR><CR>
 nmap <leader>n :NERDTree<cr>
 nmap <leader>p :Files<cr>
 nmap <leader>o :Ag<cr>
-set pastetoggle=<leader>P
+set pastetoggle=<leader>PT
 
 autocmd BufNewFile,BufRead *.py nmap <leader>r :w<CR>:!clear;python3 %<CR>
 autocmd BufNewFile,BufRead *.tex nmap <leader>r :w<CR>:!clear;pdflatex %<CR>
