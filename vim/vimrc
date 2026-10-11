@@ -4,6 +4,7 @@ set updatetime=100
 set shiftwidth=4
 set autoindent
 set ignorecase
+set nohlsearch
 set tabstop=4
 set expandtab
 set nowrap
@@ -50,6 +51,6 @@ set runtimepath+=[PATH TO VIM DIRECTORY]/vim-surround
 set runtimepath+=[PATH TO VIM DIRECTORY]/nerdcommenter
 set runtimepath+=[PATH TO VIM DIRECTORY]/vim-gitgutter
 set runtimepath+=[PATH TO VIM DIRECTORY]/vim-airline
-set runtimepath+=[PATH TO FZF DIRECTORY]
-set runtimepath+=[PATH TO VIM DIRECTORY]/fzf.vim
+"set runtimepath+=[PATH TO FZF DIRECTORY]
+"set runtimepath+=[PATH TO VIM DIRECTORY]/fzf.vim
 command! -bang -nargs=* Ag call fzf#vim#ag(<q-args>, fzf#vim#with_preview({'options': '--delimiter : --nth 4.. --exact'}), <bang>0)

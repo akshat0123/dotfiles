@@ -16,3 +16,30 @@
 [submodule "nerdtree"]
 	path = nerdtree
 	url = https://github.com/preservim/nerdtree
+[submodule "vim/packages/fzf.vim"]
+	path = vim/packages/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "vim/packages/nerdcommenter"]
+	path = vim/packages/nerdcommenter
+	url = https://github.com/preservim/nerdcommenter
+[submodule "vim/packages/nerdtree"]
+	path = vim/packages/nerdtree
+	url = https://github.com/preservim/nerdtree
+[submodule "vim/packages/nvim-treesitter"]
+	path = vim/packages/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter
+[submodule "vim/packages/plenary.nvim"]
+	path = vim/packages/plenary.nvim
+	url = https://github.com/nvim-lua/plenary.nvim
+[submodule "vim/packages/vim-airline"]
+	path = vim/packages/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "vim/packages/vim-gitgutter"]
+	path = vim/packages/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "vim/packages/vim-surround"]
+	path = vim/packages/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "vim/packages/codecompanion.nvim"]
+	path = vim/packages/codecompanion.nvim
+	url = https://github.com/olimorris/codecompanion.nvim
